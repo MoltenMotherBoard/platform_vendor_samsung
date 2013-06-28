@@ -77,8 +77,10 @@ PRODUCT_COPY_FILES += \
 # Temporary fixes
 # Will fix in sources later
 ## libprc
-PRODUCT_COPY_FILES += \
-    vendor/samsung/others/lib/librpc.so:system/lib/librpc.so
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/others/lib/librpc.so:system/lib/librpc.so
+
 ## light.msm7x27.so
 #PRODUCT_COPY_FILES += \
 #    vendor/samsung/others/lib/hw/lights.msm7x27.so:system/lib/hw/lights.msm7x27.so
